@@ -1,5 +1,6 @@
 # Collision-simulator
-particle collision simulator, parallelised with OpenMP
+Particle collision simulator, parallelised with OpenMP.
+Main logic in sim.cc, collision rules in collision.h
 
 ### Notes
 This project and its test cases were run on a slurm cluster, so it is difficult to replicate on a personal laptop. However, the main logic used is in this repo!
