@@ -1,8 +1,8 @@
-# collision-simulator
+# Collision-simulator
 particle collision simulator, parallelised with OpenMP
 
 ### Notes
-This project was run on a slurm cluster, so it is difficult to replicate on a personal laptop. However, the core code is still provided!
+This project and its test cases were run on a slurm cluster, so it is difficult to replicate on a personal laptop. However, the main logic used is in this repo!
 
 Particles undergo elastic collisions over timesteps.
 Since this is a computationally intensive, a few optimisations are implemented. <br>
