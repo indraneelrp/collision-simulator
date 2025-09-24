@@ -3,7 +3,7 @@ Particle collision simulator, parallelised with OpenMP.<br>
 Main logic in **sim.cc**, collision rules in **collision.h**
 
 ### Notes
-This project was created as part of a parallel computing course at NUS, and run on a slurm cluster made available to students, so it is difficult to replicate on a personal laptop. However, the main logic is in this repo!
+This project was created for a parallel computing course at NUS, and run on a slurm cluster made available to students, so it is difficult to replicate on a personal laptop. However, the main logic is in this repo!
 
 Particles undergo elastic collisions over timesteps.
 Since this is computationally intensive, a few optimisations are implemented. <br>
